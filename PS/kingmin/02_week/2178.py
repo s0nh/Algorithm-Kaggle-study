@@ -12,7 +12,7 @@ for _ in range(n):
 def heuristic(x, y):
     return n-1-x + m-1-y
 
-pq = [(1+heuristic(0, 0), 1, 0, 0)]\
+pq = [(1+heuristic(0, 0), 1, 0, 0)]
 
 INF = int(1e9)
 dist = [[INF]*m for _ in range(n)]
